@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <title>天猫tmall.com--理想生活上天猫</title>
+   <!-- 初始化 -->
+   <link rel="stylesheet" href="./css/base_style.css">
+   <!-- 登录页面样式 -->
+   <link rel="stylesheet" href="./css/login_style.css">
+   <!-- 字体图标引入 -->
+   <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3378747_bgiw51wgrhp.css">
+   <link rel="shortcut icon" href="//gw.alicdn.com/tps/i2/TB1nmqyFFXXXXcQbFXXE5jB3XXX-114-114.png"
+      type="image/x-icon" />
+</head>
+
+<body>
+   <nav class="nav">
+      <div class="login_nav_title">
+         <a href="./index.html"><img src="./images/denglu_logo.png" alt=""></a>
+      </div>
+   </nav>
+   <header class="header">
+      <div class="main">
+         <div class="main_title">
+            <a href="#">密码登录</a>
+            <span>请重新登录</span>
+            <a href="#">短信登录</a>
+         </div>
+      </div>
+   </header>
+   <main class="Dl_main">
+      <div class="Dl_input">
+         <div class="input1">
+            <span><i class="iconfont icon-geren"></i></span>
+            <input id="input1" placeholder="账号名/邮箱/手机号" value="">
+         </div>
+         <div class="input2">
+            <span><i class="iconfont icon-suoding"></i></span>
+            <input id="input2" placeholder="请输入登录密码" value="">
+            <a href="./index.html"><button class="btn1" id="login">登录</button></a>
+         </div>
+         <div class="Dl_bottom">
+            <i class="iconfont icon-weibo-copy"></i><a
+               href="http://weibo.com/login.php?spm=a2107.1.0.0.3f4a4265R1grEO&entry=taobao&goto=https%3A%2F%2Flogin.taobao.com%2Faso%2Ftvs%3Fdomain%3Dweibo%26sid%3Da2452921297ece62b44ba0f679fa46b2%26target%3D68747470733A2F2F64657461696C2E746D616C6C2E636F6D3A3434332F6974656D2E68746D2F5F5F5F5F5F746D645F5F5F5F5F2F706167652F6C6F67696E5F6A756D703F72616E643D5333577847484167417437353645707A6E77664E7A4A71324146413271424E6C61336A3645494E55533857653964617A4D5F694B456C703844775653485A55657670433431427837527A697658496A39526E5A676467265F6C67745F3D30663762396132653132383839323032363762616234626532306430656664365F5F5F3135333338315F5F5F35313337343431316637373165613131323731313634613962336539653932385F5F5F3833376232313161306335633464303331313631376461356666663337653235303031343133373034646536323562383630653235313866616164306630333635363164613439333838313639646565393231666361633064376134383065626261333030633561376331656532353866333039303764323133343866663231353536383464306438653631313261346330626138393539383038323331333662303839333331346132643465356234303036626563636431333238643736376164393337346662373465326632633139323534626530643563343064306235346163633165656433343064353930316166373430636262666634303739316535613866636333653631323561313031666236623462643338313932386635383830353039373534366465656265623366383931366462366434363133323637&goto2=https%3A%2F%2Fdetail.tmall.com%3A443%2Fitem.htm%2F_____tmd_____%2Fpage%2Flogin_jump%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26_lgt_%3D0f7b9a2e1288920267bab4be20d0efd6___153381___51374411f771ea11271164a9b3e9e928___837b211a0c5c4d0311617da5fff37e25001413704de625b860e2518faad0f036561da49388169dee921fcac0d7a480ebba300c5a7c1ee258f30907d21348ff2155684d0d8e6112a4c0ba895980823136b0893314a2d4e5b4006beccd1328d767ad9374fb74e2f2c19254be0d5c40d0b54acc1eed340d5901af740cbbff40791e5a8fcc3e6125a101fb6b4bd381928f58805097546deebeb3f8916db6d4613267">微博登录</a>
+            <i class="iconfont icon-alipay"></i><a
+               href="https://auth.alipay.com/login/index.htm?loginScene=7&goto=https%3A%2F%2Fauth.alipay.com%2Flogin%2Ftaobao_trust_login.htm%3Ftarget%3Dhttps%253A%252F%252Flogin.taobao.com%252Fmember%252Falipay_sign_dispatcher.jhtml%253Ftg%253Dhttps%25253A%25252F%25252Fdetail.tmall.com%25253A443%25252Fitem.htm%25252F_____tmd_____%25252Fpage%25252Flogin_jump%25253Frand%25253DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%252526_lgt_%25253D0f7b9a2e1288920267bab4be20d0efd6___153381___51374411f771ea11271164a9b3e9e928___837b211a0c5c4d0311617da5fff37e25001413704de625b860e2518faad0f036561da49388169dee921fcac0d7a480ebba300c5a7c1ee258f30907d21348ff2155684d0d8e6112a4c0ba895980823136b0893314a2d4e5b4006beccd1328d767ad9374fb74e2f2c19254be0d5c40d0b54acc1eed340d5901af740cbbff40791e5a8fcc3e6125a101fb6b4bd381928f58805097546deebeb3f8916db6d4613267&params=VFBMX3JlZGlyZWN0X3VybD1odHRwcyUzQSUyRiUyRmRldGFpbC50bWFsbC5jb20lM0E0NDMlMkZpdGVtLmh0bSUyRl9fX19fdG1kX19fX18lMkZwYWdlJTJGbG9naW5fanVtcCUzRnJhbmQlM0RTM1d4R0hBZ0F0NzU2RXB6bndmTnpKcTJBRkEycUJObGEzajZFSU5VUzhXZTlkYXpNX2lLRWxwOER3VlNIWlVldnBDNDFCeDdSeml2WElqOVJuWmdkZyUyNl9sZ3RfJTNEMGY3YjlhMmUxMjg4OTIwMjY3YmFiNGJlMjBkMGVmZDZfX18xNTMzODFfX181MTM3NDQxMWY3NzFlYTExMjcxMTY0YTliM2U5ZTkyOF9fXzgzN2IyMTFhMGM1YzRkMDMxMTYxN2RhNWZmZjM3ZTI1MDAxNDEzNzA0ZGU2MjViODYwZTI1MThmYWFkMGYwMzY1NjFkYTQ5Mzg4MTY5ZGVlOTIxZmNhYzBkN2E0ODBlYmJhMzAwYzVhN2MxZWUyNThmMzA5MDdkMjEzNDhmZjIxNTU2ODRkMGQ4ZTYxMTJhNGMwYmE4OTU5ODA4MjMxMzZiMDg5MzMxNGEyZDRlNWI0MDA2YmVjY2QxMzI4ZDc2N2FkOTM3NGZiNzRlMmYyYzE5MjU0YmUwZDVjNDBkMGI1NGFjYzFlZWQzNDBkNTkwMWFmNzQwY2JiZmY0MDc5MWU1YThmY2MzZTYxMjVhMTAxZmI2YjRiZDM4MTkyOGY1ODgwNTA5NzU0NmRlZWJlYjNmODkxNmRiNmQ0NjEzMjY3">支付宝登录</a>
+            <p>
+               <a href="#">忘记密码</a>
+               <a href="#">忘记账户名</a>
+               <a href="#">免费注册</a>
+            </p>
+         </div>
+      </div>
+   </main>
+   <div class="copyright">
+      <div class="x"></div>
+      <div class="box_ul_li1">
+         <ul class="_ul1">
+            <li><a href="">阿里巴巴国际站</a><span>|</span></li>
+            <li><a href="">阿里巴巴集团</a><span>|</span></li>
+            <li><a href="">阿里巴巴中国站</a><span>|</span></li>
+            <li><a href="">全球速卖通</a><span>|</span></li>
+            <li><a href="">淘宝网</a><span>|</span></li>
+            <li><a href="">天猫</a><span>|</span></li>
+            <li><a href="">聚划算</a><span>|</span></li>
+            <li><a href="">一陶</a><span>|</span></li>
+            <li><a href="">阿里妈妈</a><span>|</span></li>
+            <li><a href="">飞猪</a><span>|</span></li>
+            <li><a href="">虾米</a><span>|</span></li>
+            <li><a href="">阿里云计算</a><span>|</span></li>
+            <li><a href="">云OS</a><span>|</span></li>
+            <li><a href="">万网</a><span>|</span></li>
+            <li><a href="">支付宝</a></li>
+         </ul>
+      </div>
+      <div class="x x2"></div>
+      <div class="box_ul_li1">
+         <ul class="_ul1">
+            <li><a href="">关于淘宝</a></li>
+            <li><a href="">合作伙伴</a></li>
+            <li><a href="">营销中心</a></li>
+            <li><a href="">廉正举报</a></li>
+            <li><a href="">联系客服</a></li>
+            <li><a href="">开放平台</a></li>
+            <li><a href="">诚征英才</a></li>
+            <li><a href="">联系我们</a></li>
+            <li><a href="">网站地图</a></li>
+            <li><a href="">隐私权政策</a></li>
+            <li><a href="">法律声明</a></li>
+            <li><a href="">知识产权</a><span>|</span></li>
+            <li>&copf;2003-现在Taobao.com版权所有</li>
+         </ul>
+         </p>
+      </div>
+      <div class="box_p">
+         <p class="p1">
+            增值电信业务经营许可证：浙B2-20080224&nbsp;|&nbsp;增值电信业务经营许可证（跨地区）：B2-20150210&nbsp;|&nbsp;浙网文（2019）1033-086号&nbsp;|&nbsp;浙江省网络食品销售第三方平台提供者备案：浙网食A33010001
+         </p>
+         <p class="p2">
+            互联网药品信息服务资格证书（浙）-经营性-2018-0010&nbsp;|&nbsp;短消息类服务接入代码使用证书：号【2016】00154-A01&nbsp;|&nbsp;信息网络传播视听许可证：1109364号&nbsp;|&nbsp;出版物网络交易平台服务经营备案号：新出发浙备字第002号
+         </p>
+         <p class="p3">
+            <a href="">浙公网安备
+               33010002000078号</a>&nbsp;|&nbsp;<a
+               href="">浙B2-20080224-1</a>&nbsp;|&nbsp;广播电视节目制作经营许可证（浙）字第01012号&nbsp;|&nbsp;市场名称登记证：工商网市字3301004120号&nbsp;|&nbsp;
+         </p>
+         <p class="p4">
+            <img src="./images/b1.gif" alt="">
+            <img src="./images/b_bj.jpg" alt="">
+         </p>
+      </div>
+   </div>
+</body>
+
+</html>
+<script>
+   var input1 = document.getElementById('input1');
+   var input2 = document.getElementById('input2');
+   var login = document.getElementById('login')
+   login.onclick = function () {
+      if (input1.value === 'admin' && input2.value === '123') {
+         alert('Hi 欢迎您，登录成功!')
+      } else if (input1.value == '') {
+         alert('请输入您的账号哦')
+         return false;
+      } else if (input2.value == '') {
+         alert('请输入您的密码哦')
+         return false;
+      } else {
+         alert('您输入的账号不存在');
+         return false
+      }
+   }
+</script>
